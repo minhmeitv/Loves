@@ -294,7 +294,7 @@
   <section class="screen" data-screen="1">
     <div class="card">
       <button class="back-btn" onclick="goTo(0)">← Quay lại</button>
-      <div class="q-label">Câu 1 / 4</div>
+      <div class="q-label">Câu 1</div>
       <h2>Bé thích hoa gì ạ? 🌷</h2>
       <input type="text" id="answer-flower" class="input-pill" placeholder="Bé nhập tên loài hoa nè..." maxlength="40" autocomplete="off" autocapitalize="words" spellcheck="false">
       <button class="btn btn-primary" id="next-1" disabled onclick="submitFlower()">Tiếp theo →</button>
@@ -304,7 +304,7 @@
   <section class="screen" data-screen="2">
     <div class="card">
       <button class="back-btn" onclick="goTo(1)">← Quay lại</button>
-      <div class="q-label">Câu 2 / 4</div>
+      <div class="q-label">Câu 2</div>
       <h2>Bé thích đồ ngọt đúng không ạ? 🍬</h2>
       <div class="options">
         <button class="btn btn-option" onclick="selectAnswer('sweet','Có',this)">Có 😋</button>
@@ -316,7 +316,7 @@
   <section class="screen" data-screen="3">
     <div class="card">
       <button class="back-btn" onclick="goTo(2)">← Quay lại</button>
-      <div class="q-label">Câu 3 / 4</div>
+      <div class="q-label">Câu 3</div>
       <h2>Em có thích đi chơi cùng anh trong tương lai không? 💑</h2>
       <div class="options">
         <button class="btn btn-option" onclick="selectAnswer('dating','Có',this)">Có 💖</button>
@@ -324,19 +324,29 @@
       </div>
     </div>
   </section>
+  
+  <section class="screen" data-screen="1">
+    <div class="card">
+      <button class="back-btn" onclick="goTo(0)">← Quay lại</button>
+      <div class="q-label">Câu 5</div>
+      <h2>Bé thích uống sữa và những món (VD: Matcha) gì ạ? 🌷</h2>
+      <input type="text" id="answer-flower" class="input-pill" placeholder="Bé nhập tên loài hoa nè..." maxlength="40" autocomplete="off" autocapitalize="words" spellcheck="false">
+      <button class="btn btn-primary" id="next-1" disabled onclick="submitFlower()">Tiếp theo →</button>
+    </div>
+  </section>
 
   <section class="screen" data-screen="4">
     <div class="card">
       <button class="back-btn" onclick="goTo(3)">← Quay lại</button>
-      <div class="q-label">Câu 4 / 4</div>
+      <div class="q-label">Câu 4</div>
       <h2>Em có tin tưởng anh sẽ kiếm được tiền trong 2 năm tới không? 💰</h2>
       <div class="options">
         <button class="btn btn-option" onclick="selectAnswer('money','Có',this)">Có 🤝</button>
         <button class="btn btn-option" onclick="selectAnswer('money','Không',this)">Không 🙅‍♀️</button>
       </div>
     </div>
-  </section>
-
+  </section> 
+  
   <section class="screen" data-screen="5">
     <div class="card">
       <div id="loading-view">
